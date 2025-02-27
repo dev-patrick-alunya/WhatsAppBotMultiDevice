@@ -1,7 +1,7 @@
 {
 	"name": "whatsappbot",
 	"version": "1.0.0",
-	"description": "well...Unique and intreating project",
+	"description": "My First Whatsapp Chat Bot Deployment...",
 	"main": "index.js",
 	"private": true,
 	"directories": {
@@ -12,10 +12,12 @@
 		"python": "3.9.x"
 	},
 	"scripts": {
-		"start": "node index.js"
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"build": "echo 'No build step defined'"
 	},
 	"keywords": [],
-	"author": "mahesh",
+	"author": "dev-patrick-alunya",
 	"license": "MIT",
 	"dependencies": {
 		"@adiwajshing/baileys": "github:jacktheboss220/Baileys-New",
@@ -44,7 +46,6 @@
 		"qrcode-terminal": "^0.12.0",
 		"sharp": "^0.32.6",
 		"truecallerjs": "^2.2.0",
-		"twitter-url-direct": "^1.0.9",
 		"ultimate-text-to-image": "^1.0.1",
 		"urban-dictionary": "github:jacktheboss220/urban-dictionary",
 		"wa-sticker-formatter": "^3.6.0",
